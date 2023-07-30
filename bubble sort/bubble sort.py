@@ -4,7 +4,7 @@ import pytest
 
 from conftest import time_of_function
 
-S = 6000
+S = 10000
 a = []
 for i in range(S):
     a.append(randint(1, 99))
