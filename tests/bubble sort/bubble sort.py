@@ -2,10 +2,7 @@ from random import randint
 
 from conftest import time_of_function
 
-S = 10000
-a = []
-for i in range(S):
-    a.append(randint(1, 99))
+
 
 @time_of_function
 def bubble_sort():
