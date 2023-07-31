@@ -1,7 +1,5 @@
 from random import randint
 
-import pytest
-
 from conftest import time_of_function
 
 S = 10000
